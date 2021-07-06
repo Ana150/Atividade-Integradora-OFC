@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+ body{
+    /* width: 100vw;
+    height: 100vh; */
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    background-image:url("IMAGENS/universo.gif");
+    /* background-blend-mode: lighten; */
+    background-size: cover;
+    background-color: violet;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    background-color: #000000AA;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 0px 50px;
+}
+
+.logo img{
+    width: 180px;
+    margin-left: 100px;
+}
+
+
+.menu ul{
+    display: flex;
+    float: none;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+ }
+ 
+ .menu a:hover{
+    transition: all 0.5s;
+    border-left: 7px solid rgba(149, 0, 255, 0.549);
+ }
+
+.b1{
+    margin-right: 100px;
+    color: white;
+    border-style: groove;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: box-shadow .5s linear;
+}
+
+.b1:hover{
+    transition: all 1s;
+    box-shadow: inset 200px 0 0 rgba(149, 0, 255, 0.193);
+    
+ }
+
+main{
+    margin: 0px 50px 0px 50px;
+    background-color: #000000AA;
+    color: white;
+}
+
+.resumo p{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px; 
+    font-size: 30px;
+    text-align: center;
+}
+
+main h1{
+    display: flex;
+    width: 90px;
+    position: absolute; 
+	left: 400px; 
+    position: relative;
+    font-size: 120px;
+    font-family: 'Days One', sans-serif;
+}
+
+.sop{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sop1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sop1 h2{
+    font-size: 52px;
+}
+
+.sop2 h2{
+    font-size: 52px;
+}
+
+.sop p{
+    font-size: 20px;
+    max-width: 360px;
+    padding: 10px 0px 50px;
+}
+
+.lima{
+    margin-left: 100px;
+}
+
+.lima1 h2{
+    font-size: 52px;
+}
+
+.lima2 h2{
+    font-size: 52px;
+}
+
+.lima p{
+    font-size: 20px;
+    padding: 20px 0px 20px;
+}
+
+.fpoo{
+    margin-left: 100px;
+}
+
+.fpoo1 h2{
+    font-size: 52px;
+}
+
+.fpoo2 h2{
+    font-size: 52px;
+}
+
+.fpoo p{
+    font-size: 20px;
+    padding: 20px 0px 20px;
+}
+
+.hare{
+    margin-left: 100px;
+}
+
+.hare1 h2{
+    font-size: 52px;
+}
+
+.hare2 h2{
+    font-size: 52px;
+}
+
+.hare p{
+    font-size: 20px;
+    padding: 20px 0px 20px;
+}
+
+footer{
+    margin: 0px 50px 50px 50px;
+    background-color: #000000AA;
+    color: white;
+    text-align: center;
+}
