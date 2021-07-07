@@ -12,9 +12,9 @@
     display: flex;
     flex-direction: column;
     background-image:url("IMAGENS/universo.gif");
-    /* background-blend-mode: lighten; */
+    background-blend-mode: lighten;
     background-size: cover;
-    background-color: violet;
+    background-color: rgba(0, 0, 0, 0.487);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -84,6 +84,7 @@ main{
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px; 
+    max-width: 800px;
     font-size: 30px;
     text-align: center;
 }
@@ -92,7 +93,7 @@ main h1{
     display: flex;
     width: 90px;
     position: absolute; 
-	left: 400px; 
+	left: 300px; 
     position: relative;
     font-size: 120px;
     font-family: 'Days One', sans-serif;
