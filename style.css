@@ -342,6 +342,7 @@ main{
 
 .imagem2{
     width: 500px;
+    margin: 0px 0px 20px 0px;
 }
 
 .infAdicionalFPOO h2{
@@ -350,7 +351,6 @@ main{
     font-size: 30px;
     margin: -70px 10px 0px -50px;
 }
-
 .setaBranca img{
     transform: rotate(-90deg);
     margin: 10px 10px 0px 150px;
