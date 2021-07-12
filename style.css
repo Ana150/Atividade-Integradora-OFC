@@ -102,9 +102,13 @@ main{
     margin: 50px 0px 0px 330px;
 }
 
+.videoRESUMO p {
+    margin: 50px 0px 100px -100px;
+}
+
 .sop{
     margin: 0px 50px 0px 50px;
-    background-image: linear-gradient( to top, rgba(106, 106, 106, 0.316) , rgba(255, 255, 255, 0.316), rgba(106, 106, 106, 0.316) );
+    background-color: rgba(255, 255, 255, 0.316);
     color: black;
     position: relative;
     border-color: black;
@@ -141,6 +145,14 @@ main{
     justify-content: space-between;
 }
 
+.videoSOP{
+    margin: 0px 10px 0px 10px; 
+}
+.videoSOP p{
+    text-align: center;
+    margin: 0px 10px 0px 10px; 
+}
+
 .sopV1{
     justify-content: space-between;
 }
@@ -155,7 +167,14 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 10px 0px 25px 0px; 
 }
+
+.sopV2 p{
+    text-align: center;
+    max-width: 600px;
+}
+
 
 .sopV3{
     margin: 0px 0px 25px 0px; 
@@ -163,7 +182,7 @@ main{
 
 .lima{
     margin: 0px 50px 0px 50px;
-    background-image: linear-gradient( to top, rgba(3, 9, 60, 0.316) , rgba(12, 33, 197, 0.316), rgba(3, 9, 60, 0.316));
+    background-color:rgba(12, 33, 197, 0.316);
     color: white;
     position: relative;
     border-color: black;
@@ -249,6 +268,7 @@ main{
     display: flex;
     flex-direction: column;
     margin: 100px 50px 30px 30px;
+    max-width: 900px;
 }
 
 .limaIV2 img{
@@ -262,7 +282,7 @@ main{
 
 .fpoo{
     margin: 0px 50px 0px 50px;
-    background-image: linear-gradient( to top, rgba(106, 106, 106, 0.316) , rgba(255, 255, 255, 0.316), rgba(106, 106, 106, 0.316) );
+    background-color: rgba(255, 255, 255, 0.316);
     color: black;
     position: relative;
     border-color: black;
@@ -339,7 +359,7 @@ main{
 
 .hare{
     margin: 0px 50px 0px 50px;
-    background-image: linear-gradient( to top, rgba(3, 9, 60, 0.316) , rgba(12, 33, 197, 0.316), rgba(3, 9, 60, 0.316));
+    background-color:rgba(12, 33, 197, 0.316);
     color: white;
     position: relative;
     border-color: black;
